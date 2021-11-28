@@ -1,0 +1,68 @@
+{
+    "url": "/rest/projects/vrg99rgsg2sdguia/md/metrics/mkpac0309jqm9meh",
+    "dumpTime": "2021-11-28T09:19:00Z",
+    "version": "2",
+    "content": {
+        "id": "mkpac0309jqm9meh",
+        "name": "byty_sale_metric",
+        "type": "metric",
+        "content": {
+            "type": "function_round",
+            "content": [
+                {
+                    "type": "function_divide",
+                    "content": [
+                        {
+                            "type": "function_sum",
+                            "content": [
+                                {
+                                    "type": "property",
+                                    "value": "byty.price"
+                                }
+                            ],
+                            "options": {
+                                "filterBy": [
+                                    {
+                                        "property": "byty.offer_type",
+                                        "value": "sale",
+                                        "operator": "eq"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "function_sum",
+                            "content": [
+                                {
+                                    "type": "property",
+                                    "value": "byty.living_area"
+                                }
+                            ],
+                            "options": {
+                                "filterBy": [
+                                    {
+                                        "property": "byty.offer_type",
+                                        "value": "sale",
+                                        "operator": "eq"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2021-11-26T20:00:47Z",
+            "modifiedAt": "2021-11-26T20:21:27Z",
+            "createdBy": "/rest/accounts/00u11f82vxgU1TpFk0h8",
+            "modifiedBy": "/rest/accounts/00u11f82vxgU1TpFk0h8"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/vrg99rgsg2sdguia/md/metrics/mkpac0309jqm9meh"
+            }
+        ]
+    }
+}
