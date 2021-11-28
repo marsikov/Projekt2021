@@ -1,0 +1,33 @@
+{
+    "url": "/rest/projects/vrg99rgsg2sdguia/md/markers/f7m9rci2p0ue4u82",
+    "dumpTime": "2021-11-28T09:18:58Z",
+    "version": "2",
+    "content": {
+        "id": "f7m9rci2p0ue4u82",
+        "name": "blue_marker",
+        "type": "marker",
+        "title": "Prodej",
+        "content": {
+            "style": "marker-s-blue",
+            "propertyFilters": [
+                {
+                    "propertyName": "offer_type",
+                    "value": "sale",
+                    "operator": "eq"
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2021-11-27T16:17:36Z",
+            "modifiedAt": "2021-11-27T17:37:18Z",
+            "createdBy": "/rest/accounts/00u11f82vxgU1TpFk0h8",
+            "modifiedBy": "/rest/accounts/00u11f82vxgU1TpFk0h8"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/vrg99rgsg2sdguia/md/markers/f7m9rci2p0ue4u82"
+            }
+        ]
+    }
+}
